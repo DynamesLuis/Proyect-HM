@@ -1,0 +1,20 @@
+.EnSal li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.liEn{
+    margin-left: 300px;
+}
+
+.liSal{
+    margin-left: 600px;
+}
+
+.cartainfo{
+    margin:50px;
+}
+
+
+
