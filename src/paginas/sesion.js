@@ -21,7 +21,8 @@ class sesion extends Component {
                                 <button type="submit" className="btn btn-primary mr-2">Entrar</button>
                                 <button type="submit" className="btn btn-primary mr-2">Cancelar</button>
                                 <Link className="btn btn-primary mr-2" to="/info" role="button">Boton de prueba (ir al formulario info)</Link>
-                                <Link className="btn btn-primary " to="/horario" role="button">Boton de prueba (ir al formulario horario)</Link>
+                                
+                                
                         </form>
                     </div>
                     </div>

@@ -8,7 +8,6 @@ import gestionMed from './paginas/gestionMed';
 import formularioMed from './componentes/formularios/formularioMed';
 import sesion from './paginas/sesion';
 import formularioinfo from './componentes/formularios/formularioinfo';
-import Horario from './componentes/formularios/horario';
 import Perfil from './componentes/información/perfil';
 
 
@@ -22,7 +21,6 @@ class App extends Component {
         <Route path='/medico' exact component={formularioMed} />
         <Route path='/sesion' exact component={sesion} />
         <Route path='/info' exact component={formularioinfo} />
-        <Route path='/horario' exact component={Horario} />
         <Route path='/perfil' exact component={Perfil} />
       </div>
     </Router>

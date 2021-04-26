@@ -13,7 +13,10 @@ class formularioMed extends Component {
                                 <input type="text" className="form-control" name="nombre" placeholder="Introducir nombre(s)" />
                             </div>
                             <div className="mb-3">
-                                <input type="text" className="form-control" name="apellidos" placeholder="Introducir apellidos" />
+                                <input type="text" className="form-control" name="apellidos" placeholder="Introducir apellido paterno" />
+                            </div>
+                            <div className="mb-3">
+                                <input type="text" className="form-control" name="apellidos" placeholder="Introducir apellido materno" />
                             </div>
                             <div className="mb-3">
                                 <input type="text" className="form-control" name="usuario" placeholder="Introducir usuario" />
@@ -21,9 +24,7 @@ class formularioMed extends Component {
                             <div className="mb-3">
                                 <input type="text" className="form-control" name="contraseña" placeholder="Introducir contraseña" />
                             </div>
-                            <div className="mb-3">
-                                <input type="email" className="form-control" name="email" placeholder="Introducir email" />
-                            </div>
+                            
 
                             <button type="submit" className="btn btn-primary mr-2">Aceptar</button>
                             <button type="submit" className="btn btn-primary">Cancelar</button>
