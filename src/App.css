@@ -15,6 +15,12 @@
 .cartainfo{
     margin:50px;
 }
-
+.info{
+    text-align: left;
+    font-weight: bold;
+}
+.card-title{
+    font-weight: bold;
+}
 
 

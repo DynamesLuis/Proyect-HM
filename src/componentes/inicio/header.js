@@ -19,23 +19,12 @@ class Header extends Component {
                                     <Link className="nav-link" to="/gestionMedico">Gestión de médicos</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/sesion">Ingresar sesión</Link>
+                                    <Link className="nav-link" to="/gestioninfo">Gestión información</Link>
                                 </li>
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Organizar
-  </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Médico general (consultas)</a>
-                                        <a class="dropdown-item" href="#">Médico de urgencias</a>
-                                        <a class="dropdown-item" href="#">Médico especialista</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Todos</a>
-                                    </div>
-                                </div>
                                 <li className="nav-item">
-                                    <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                    <Link className="nav-link" to="/sesion">Iniciar sesión</Link>
                                 </li>
+                                
                             </ul>
                             <form className="d-flex">
                                 <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />

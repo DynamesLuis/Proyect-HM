@@ -1,33 +1,35 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import '../Estilos/login.css';
+import imagenusuario from '../imagenes/imagenusuario.png';
 
 class sesion extends Component {
     render() {
         return (
-            <div>
-                <div className="card border-dark mt-4">
-                    <h5 className="card-title ml-3">Iniciar Sesión</h5>
-                    <div className="card-body">
-                        <form>
-                            <div className="mb-3">
-                                <label for="disabledTextInput" className="form-label">Usuario</label>
-                                <input type="text" id="disabledTextInput" className="form-control"/>
-    </div>
-                                <div className="mb-3">
-                                    <label for="exampleInputPassword1" className="form-label">Contraseña</label>
-                                    <input type="password" className="form-control" id="exampleInputPassword1" />
-                                </div>
+            <dev>
+                <div className="wrapper fadeInDown">
+                    <div id="formContent">
 
-                                <button type="submit" className="btn btn-primary mr-2">Entrar</button>
-                                <button type="submit" className="btn btn-primary mr-2">Cancelar</button>
-                                <Link className="btn btn-primary mr-2" to="/info" role="button">Boton de prueba (ir al formulario info)</Link>
-                                
-                                
+
+
+                        <div className="fadeIn first">
+                            <img src={imagenusuario} width="90px" alt="User Icon" />
+                        </div>
+
+
+                        <form>
+                            <input type="text" id="login" className="fadeIn second" name="login" placeholder="Nombre de Usuario" />
+                            <input type="text" id="password" className="fadeIn third" name="login" placeholder="Contraseña" />
+                            <input type="submit" class="fadeIn fourth" value="Log In" />
                         </form>
-                    </div>
+
+
+        
+
                     </div>
                 </div>
+            </dev>
         )
     }
+
 }
 export default sesion;
